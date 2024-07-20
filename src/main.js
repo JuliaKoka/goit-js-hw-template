@@ -8,6 +8,7 @@ import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
 const form = document.querySelector('form');
+const loadMoreBtn = document.querySelector('load-more-btn');
 const loadingIndicator = document.querySelector('.loading-indicator');
 
 form.addEventListener('submit', handleSubmit);
