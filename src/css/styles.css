@@ -95,6 +95,10 @@ ul {
   }
 }
 
+.load-more-btn .is-hidden {
+  display: none;
+}
+
 .gallery-list {
   display: flex;
   flex-wrap: wrap;
