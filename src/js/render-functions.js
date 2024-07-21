@@ -15,8 +15,8 @@ export function createMarkup({
   const formattedTags = tags.split(', ').join(', ');
   return `<li class="gallery-item">
   <div class="gallery">
-  <a class="gallery-link" href=${largeImageURL}>
-  <img class="gallery-image" src=${webformatURL} data-source=${largeImageURL} alt=${formattedTags}>
+  <a class="gallery-link" href='${largeImageURL}'>
+  <img class="gallery-image" src='${webformatURL}' data-source=${largeImageURL} alt='${formattedTags}'>
   </a>
   </div>
   <div class="img-data">
