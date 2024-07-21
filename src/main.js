@@ -50,9 +50,7 @@ function fetchNewPage() {
     }).refresh();
 
     if (page > 1) {
-      const { height: heightOfElement } = document
-        .querySelector('.gallery')
-        .getBoundingClientRect();
+      const { height: heightOfElement } = document.querySelector('.gallery');
       window.scrollBy({
         top: heightOfElement * 2,
         behavior: 'smooth',
